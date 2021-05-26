@@ -38,7 +38,7 @@ updates:
 
   - package-ecosystem: "pip"
     # location of package manifests
-    directory: "Source/"
+    directory: "/"
     open-pull-requests-limit: 10
     schedule:
       interval: "daily"
@@ -50,7 +50,7 @@ updates:
 
   - package-ecosystem: "maven"
     # location of package manifests
-    directory: "Source/"
+    directory: "/"
     open-pull-requests-limit: 10
     schedule:
       interval: "daily"
@@ -62,7 +62,7 @@ updates:
  
   - package-ecosystem: "gradle"
     # location of package manifests
-    directory: "Source/"
+    directory: "/"
     open-pull-requests-limit: 10
     schedule:
       interval: "daily"
