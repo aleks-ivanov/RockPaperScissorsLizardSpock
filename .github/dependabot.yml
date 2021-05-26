@@ -38,7 +38,19 @@ updates:
 
   - package-ecosystem: "pip"
     # location of package manifests
-    directory: "/"
+    directory: "Source/Services/RPSLS.PythonPlayer.Api/"
+    open-pull-requests-limit: 10
+    schedule:
+      interval: "daily"
+    # target-branch: 'develop'
+    # assignees:
+    #   - assignee_one
+    # reviewers:
+    #   - reviewer_one
+    
+  - package-ecosystem: "pip"
+    # location of package manifests
+    directory: "Source/Functions/RPSLS.Python.Api/"
     open-pull-requests-limit: 10
     schedule:
       interval: "daily"
@@ -50,7 +62,7 @@ updates:
 
   - package-ecosystem: "maven"
     # location of package manifests
-    directory: "/"
+    directory: "Source/Services/RPSLS.JavaPlayer.Api/"
     open-pull-requests-limit: 10
     schedule:
       interval: "daily"
@@ -59,17 +71,5 @@ updates:
     #   - assignee_one
     # reviewers:
     #   - reviewer_one
- 
-  - package-ecosystem: "gradle"
-    # location of package manifests
-    directory: "/"
-    open-pull-requests-limit: 10
-    schedule:
-      interval: "daily"
-    # target-branch: 'develop'
-    # assignees:
-    #   - assignee_one
-    # reviewers:
-    #   - reviewer_one   
-    
+
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
