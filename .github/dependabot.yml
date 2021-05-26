@@ -26,7 +26,7 @@ updates:
 
   - package-ecosystem: "npm"
     # location of package manifests
-    directory: "Source/Services/"
+    directory: "Source/Services/RPSLS.NodePlayer.Api/"
     open-pull-requests-limit: 10
     schedule:
       interval: "daily"
