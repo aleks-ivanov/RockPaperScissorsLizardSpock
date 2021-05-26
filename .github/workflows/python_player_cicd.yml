@@ -16,7 +16,7 @@ jobs:
   buildpush:
     runs-on: ubuntu-16.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2.3.4
     - name: Build the Docker image
       working-directory: Source/Services/RPSLS.PythonPlayer.Api
       run: docker build . --file Dockerfile --tag ${{ secrets.ACR_NAME }}.azurecr.io/python.player:gh-${{ github.sha }}
