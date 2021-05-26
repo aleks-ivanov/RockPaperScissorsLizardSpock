@@ -17,7 +17,7 @@ jobs:
   buildpush:
     runs-on: ubuntu-16.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2.3.4
     - name: Build the Docker image for Web
       working-directory: Source/Services
       run: docker build . --file RPSLS.Game/Server/Dockerfile --tag ${{ secrets.ACR_NAME }}.azurecr.io/web:gh-${{ github.sha }}
