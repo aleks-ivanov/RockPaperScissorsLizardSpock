@@ -72,4 +72,16 @@ updates:
     # reviewers:
     #   - reviewer_one
 
+  - package-ecosystem: "composer"
+    # location of package manifests
+    directory: "/"
+    open-pull-requests-limit: 10
+    schedule:
+      interval: "daily"
+    # target-branch: 'develop'
+    # assignees:
+    #   - assignee_one
+    # reviewers:
+    #   - reviewer_one    
+
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
