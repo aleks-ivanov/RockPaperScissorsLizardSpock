@@ -14,7 +14,7 @@
     <PackageReference Include="Grpc.Net.ClientFactory" Version="2.33.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.16.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.Twitter" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Twitter" Version="5.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0" />
   </ItemGroup>
 
