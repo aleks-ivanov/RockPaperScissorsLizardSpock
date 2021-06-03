@@ -12,7 +12,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
-    <PackageReference Include="PlayFabAllSDK" Version="1.64.191218" />
+    <PackageReference Include="PlayFabAllSDK" Version="1.94.210521" />
   </ItemGroup>
 
 </Project>
